@@ -1,7 +1,7 @@
-cd automation_portal
+cd automation-portal
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/your-username/automation_portal.git
+git remote add origin https://github.com/PBaldwa1/automation-portal.git
 git push -u origin main
