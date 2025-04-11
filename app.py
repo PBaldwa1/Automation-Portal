@@ -3,6 +3,7 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
+port = int(os.environ.get("PORT", 5000))
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
